@@ -2,7 +2,7 @@
  * CossaDaniloClass
  * 
  * @author <b>Cossa Danilo</b> <u>4BI</u> <i>04/05/2022</i>
- * @version 0
+ * @version 1
  *
  */
 public class CossaDaniloClass {
@@ -29,9 +29,9 @@ public class CossaDaniloClass {
 	 */
 	
 	public int cossaMet(int f) {
-		int r = 1;
-		for(int i=f; i<0; i++) {
-			r = r * i;
+		int r = 0;
+		for(int i=0; i<=f; i++) {
+			r+=i;
 		}
 		return r;
 	}
